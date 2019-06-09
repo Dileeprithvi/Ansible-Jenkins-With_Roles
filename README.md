@@ -17,6 +17,7 @@ How to create Ansible roles using Ansible Galaxy command : ansible-galaxy init <
 The ansible galaxy command creates the 8 directories and  8 files respectively.
 
 tree <Name of the Role>
+    
 tree jenkins
 .
 ├── defaults
@@ -38,6 +39,8 @@ tree jenkins
     
     
 Ansible Modules Used: - yum - get_url - rpm_key - systemd - wait_for: timeou - shell - debug    
+
+
     
 
     
